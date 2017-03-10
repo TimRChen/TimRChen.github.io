@@ -5,15 +5,31 @@
   
   <title>TimRChen&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="this is tim&apos;s first blog">
-<meta property="og:type" content="website">
+  <meta name="description" content="前言： 在NodeJs中，我们想要开启一个tcp协议的做法就是引入net内置对象:　
+　　const net = require(‘net’); ——ES6
+　　var net = require(‘net’); ——ES5
+今天，我们来说说基于TCP协议完成node服务器与telnet客户端通信的聊天程序是怎样写出来的：
+我们首先思考我们的需求：
+　　　　　　1.开启多个终端页面，可在不同终端中">
+<meta property="og:type" content="article">
 <meta property="og:title" content="TimRChen's blog">
-<meta property="og:url" content="http://TimRChen.github.io/index.html">
+<meta property="og:url" content="http://TimRChen.github.io/2017/03/10/基于NodeJs开发的Telnet聊天程序/index.html">
 <meta property="og:site_name" content="TimRChen's blog">
-<meta property="og:description" content="this is tim&apos;s first blog">
+<meta property="og:description" content="前言： 在NodeJs中，我们想要开启一个tcp协议的做法就是引入net内置对象:　
+　　const net = require(‘net’); ——ES6
+　　var net = require(‘net’); ——ES5
+今天，我们来说说基于TCP协议完成node服务器与telnet客户端通信的聊天程序是怎样写出来的：
+我们首先思考我们的需求：
+　　　　　　1.开启多个终端页面，可在不同终端中">
+<meta property="og:updated_time" content="2017-03-10T04:04:50.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="TimRChen's blog">
-<meta name="twitter:description" content="this is tim&apos;s first blog">
+<meta name="twitter:description" content="前言： 在NodeJs中，我们想要开启一个tcp协议的做法就是引入net内置对象:　
+　　const net = require(‘net’); ——ES6
+　　var net = require(‘net’); ——ES5
+今天，我们来说说基于TCP协议完成node服务器与telnet客户端通信的聊天程序是怎样写出来的：
+我们首先思考我们的需求：
+　　　　　　1.开启多个终端页面，可在不同终端中">
   
     <link rel="alternate" href="/atom.xml" title="TimRChen&#39;s blog" type="application/atom+xml">
   
@@ -66,9 +82,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-基于NodeJs开发的Telnet聊天程序" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-基于NodeJs开发的Telnet聊天程序" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/03/10/基于NodeJs开发的Telnet聊天程序/" class="article-date">
   <time datetime="2017-03-10T04:01:50.393Z" itemprop="datePublished">2017-03-10</time>
@@ -127,92 +141,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-这是有关于利用hexo搭建博客的一个测试文" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/03/05/这是有关于利用hexo搭建博客的一个测试文/" class="article-date">
-  <time datetime="2017-03-05T13:40:45.000Z" itemprop="datePublished">2017-03-05</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/03/05/这是有关于利用hexo搭建博客的一个测试文/">这是有关于利用hexo搭建博客的一个测试文</a>
-    </h1>
+    <a href="/2017/03/05/这是有关于利用hexo搭建博客的一个测试文/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">这是有关于利用hexo搭建博客的一个测试文</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>注意，这是一篇测试文章</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://TimRChen.github.io/2017/03/05/这是有关于利用hexo搭建博客的一个测试文/" data-id="cj03atxah0001wwu3mk0vq4wd" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/03/05/hello-world/" class="article-date">
-  <time datetime="2017-03-05T13:23:12.777Z" itemprop="datePublished">2017-03-05</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/03/05/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://TimRChen.github.io/2017/03/05/hello-world/" data-id="cj03atxah0002wwu3yihirp2b" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 </section>
         
